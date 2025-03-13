@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punam Gawali - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Punam Gawali</h1>
+        <h2>M.Tech AI & ML</h2>
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'profile')">Personal Profile</button>
+            <button class="tab-button" onclick="openTab(event, 'skills')">Skills</button>
+            <button class="tab-button" onclick="openTab(event, 'education')">Education</button>
+            <button class="tab-button" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-button" onclick="openTab(event, 'patents')">Patents</button>
+            <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+        </div>
+        
+        <div id="profile" class="tab-content active">
+            <p>A highly motivated professional transitioning from academia to the IT industry...</p>
+        </div>
+        <div id="skills" class="tab-content">
+            <ul>
+                <li>Natural Language Processing (NLP)</li>
+                <li>Deep Learning</li>
+                <li>Computer Vision</li>
+                <li>Python, TensorFlow, PyTorch</li>
+            </ul>
+        </div>
+        <div id="education" class="tab-content">
+            <p>M.Tech AI & ML - BITS Pilani (2022-2024)</p>
+            <p>M.Sc Mathematics - Pune University (2016-2018)</p>
+        </div>
+        <div id="experience" class="tab-content">
+            <p>Assistant Professor, MIT AOE Pune (6 years). Head of Department (2019-22).</p>
+        </div>
+        <div id="patents" class="tab-content">
+            <p>Multiple patents in AI, Mathematics, and Security.</p>
+        </div>
+        <div id="projects" class="tab-content">
+            <p>JUEnrollEase: Intelligent Admission Query Resolution with NLP (Chatbot).</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
